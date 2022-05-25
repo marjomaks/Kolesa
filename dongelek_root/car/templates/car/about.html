@@ -1,0 +1,34 @@
+
+{% extends 'car/base.html' %}
+{% load static %}
+{% block scripts %}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+{% endblock %}
+{% block content %}
+    <body>
+
+<div id="tooplate_wrapper">
+
+	<div id="tooplate_header">
+
+        <div id="tooplate_main">
+            <div id="tooplate_content">
+                <div class="col_w900">
+                    <div id="site_title"><h1><a href="#">Dongelek.Kz</a></h1></div>
+                    <h2>About Us</h2>
+                    <p>Name of the our group is Key To Life.</p>
+
+                    <h2>About Site</h2>
+                    <p>We want to do this site to look alike to <a href="https://kolesa.kz/" rel="nofollow"><strong>kolesa</strong></a> , but on the other case we want to do something special, and this site is the result of out work.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+{% endblock %}
